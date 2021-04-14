@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="6.627">
+    <testcase classname="SignUpPageFeatureUI" name="Sign up page" time="6.466">
+        <system-out><![CDATA[Given User navigates to Conduit application.................................passed
+When User Creates random User Profiles in sign up screen....................passed
+Then User login with same newly created profile.............................passed
+And User Navigates to Settings screen.......................................passed
+Then User sets the user profile image url...................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
