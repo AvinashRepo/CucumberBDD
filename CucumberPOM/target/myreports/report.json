@@ -1,0 +1,120 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-14T04:42:55.899Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2992500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.AppHooks.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2470772700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.AppHooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Sign up page",
+        "description": "",
+        "id": "signuppagefeatureui;sign-up-page",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.AppHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 908059700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.AppHooks.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2715756600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to Conduit application",
+            "match": {
+              "location": "steps.SignUpPageSteps.user_navigates_to_conduit_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 305608600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Creates random User Profiles in sign up screen",
+            "match": {
+              "location": "steps.SignUpPageSteps.user_creates_random_user_profiles_in_sign_up_screen()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User login with same newly created profile",
+            "match": {
+              "location": "steps.SignUpPageSteps.user_login_with_same_newly_created_profile()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Navigates to Settings screen",
+            "match": {
+              "location": "steps.SignUpPageSteps.user_navigates_to_settings_screen()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User sets the user profile image url",
+            "match": {
+              "location": "steps.SignUpPageSteps.user_sets_the_user_profile_image_url()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "SignUpPageFeatureUI",
+    "description": "",
+    "id": "signuppagefeatureui",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/SignUpPage.feature",
+    "tags": []
+  }
+]
